@@ -23,6 +23,6 @@ io.on("connection", client => {
     })
 })
 
-server.listen(9090, () => {
+server.listen(PORT, () => {
     console.log("Socket server started at port :" + PORT)
 })
